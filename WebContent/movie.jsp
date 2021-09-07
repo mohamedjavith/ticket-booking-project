@@ -24,7 +24,7 @@ the 1500s, when an unknown printer took a galley of<br>
 </div>
 </div>
 <div class="movie-form-div">
-<form>
+<form action="seatbook.jsp">
 <select  name="theatre">
 <option>Select Theatre</option>
 <option value="theatre-id">Theatre Name1</option>
@@ -46,6 +46,7 @@ the 1500s, when an unknown printer took a galley of<br>
 <option value="shows-id">show time 2</option>
 <option value="shows-id">show time 3</option>
 </select><br><br>
+
 <button type="submit">Book Now</button>
 </form>
 

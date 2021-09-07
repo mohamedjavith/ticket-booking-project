@@ -6,6 +6,11 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="style.css">
 <title>Movie Ticket Booking</title>
+<style>
+a{
+text-decoration:none;
+}
+</style>
 </head>
 <body>
 	<%@include file="header.jsp" %>
@@ -18,7 +23,7 @@
     <div class="text">
       <h3>MOVIE NAME</h3>
       <p>Tami1 . U . Actor . Actoress . Director . Music Director.</p>
-      <button class="book-now-btn">Book Now</button>
+      <button class="book-now-btn"><a href="movie.jsp?id=movieid" style="color:#FFF">Book Now</a></button>
     </div>
   </article>
   <article class="card">
